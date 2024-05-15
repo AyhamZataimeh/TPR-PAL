@@ -1,0 +1,90 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-2">
+            <label for="">المحافظة</label>
+            <select name="" id="" class="form-select" (change)="onLocationChange($event)">
+                <option value="" selected> Select Location </option>
+                <option  *ngFor="let location of locations" [value]="location.locationsId">{{location.name}}</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="">العنوان</label>
+            <select name="" id="" class="form-select" [disabled]="!locationAddress.length" (change)="onAddressChange($event)">
+                <option value="" selected> Select Address </option>
+                <option  *ngFor="let address of locationAddress" [value]="address.address">{{address.address}}</option>
+            </select>
+        </div>
+
+        <div class="col-md-4"></div>
+
+    </div>
+    <div class="row mt-3" >
+        <div class="img-header" >
+            <img src="../../../assets//images/logo-background.png" alt="" width="70%" height="70%"  >
+        </div>
+    </div>
+
+    <div class="row tpr-info font-weight-bold">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 col-sm-6 col-xs-12 text-center">
+            <p>
+                {{ headerLeft }}
+
+
+            </p>
+        </div>
+
+        <div class="col-md-2 co-sm-6 col-xs-12 horizntal-line">
+        </div>
+
+        <div class="col-md-2 co-sm-6 col-xs-12 text-center">
+            {{ headerCenter }}
+
+        </div>
+
+        <div class="col-md-2 co-sm-6 col-xs-12 horizntal-line">
+            
+        </div>
+
+        <div class="col-md-2 col-sm-6 col-xs-12 text-center">
+            {{ headerRight }}
+
+
+        </div>
+
+        <div class="col-md-1"></div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-sm-6  col-xs-12" *ngFor =" let course of coursesAddressList">
+            <div class="card text-center font-weight-bold mt-3">
+                <div class="card-header mt-4">
+                    <p>{{ course.courcesLocation.name}}</p>
+
+                </div>
+                <div class="card-body">
+                    <p>{{ course.location}}</p>
+                    <p>{{ course.address}}</p>
+
+                    <a [href]="course.locationURL" class="btn btn-primary " target="_blank">
+                        الموقع <i class="fa fa-map-marker px-2"></i>
+
+                    </a>
+                </div>
+                <div class="card-footer ">
+                    <a [href]="'tel:'+ course.phoneNumber" class="btn btn-primary" target="_blank">
+                        <span class="btn btn-primary">
+                            اتصل بنا
+                            <i class="fa fa-phone px-2"> </i>
+
+                        </span>
+
+                    </a>
+          
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+{
+    "NAVBAR": {
+        "ABOUT_US": "معلومات عنا",
+        "WHAT_IS_TPR": "ما هو TPR",
+        "WORK_TEAM": "فريق العمل",
+        "TARGET_GROUPS": "المجموعات المستهدفة",
+        "CONTACT_INFO": "معلومات الاتصال",
+        "COURSE_REGISTER": "تسجيل الدورات",
+        "SUBMITTING_JOB": "تقديم الوظيفة",
+        "SERVICES": "الخدمات",
+        "CONVRSATION_CORUSES": "دورات المحادثة",
+        "TEACHERS_COURSES": "دورات المعلمين",
+        "LATEST_NEWS": "أحدث الأخبار",
+        "LANGUAGES": "المقالات",
+        "COURSES_ADDRESS": "عنوان الدورات",
+        "LOGIN": "تسجيل الدخول",
+        "PARTNERS":"شركائنا",
+        "COURSE_REGISTER_NOW":"سجل الان في الدورات القادمة"
+   
+
+
+
+    },
+    "MASTER": {
+        "WE_DO_IT_BECAUSE_WE_LOVE_IT":"نحن نفعل ذلك لأننا نحب ذلك",
+        "ABOUT_US": "معلومات عنا",
+        "WHAT_IS_TPR": "ما هو TPR",
+        "WORK_TEAM": "فريق العمل",
+        "TARGET_GROUPS": "الفئات العمرية",
+        "PARTNERS":"شركائنا",
+        "READ_MORE":"أقرأ المزيد"
+
+
+    },
+    "COURSE_RIGISTER" : {
+        "RESERVE_SEAT_NOW":"احجز مقعد الآن",
+        "NEW_COURSE_WILL_START":"سجل طفلك في الدورة القادمة",
+        "REGISTER_NOW":"سجل الأن"
+
+
+    },
+    "SUBMITTING_JOB": {
+        "EMPLOYMENT_APPLICATION":"طلب التوظيف",
+        "TECHING":"تدريس اللغة الإنجليزية للطلاب أقل من 14 سنة بدون استخدام القلم أو السبورة.",
+        "THORUGH":"من خلال استراتيجيات التعلم النشط وأنظمة TPR.",
+        "SEVRAL":"لدينا عدة مناطق في عمان والسلط ومادبا والعقبة.",
+        "ARRANGEMENTS":"ترتيبات:",
+        "DIERCT":"اتصال هاتفي مباشر",
+        "PERSONAL_INTERVIEW":"المقابلة الشخصية",
+        "TRAINING":"التدريب على المهارات اللازمة ليكون مدرب TPR معتمد (14 يومًا).",
+        "EVALUATION":"التقييم",
+        "APPLY_HERE":"قدم هنأ"
+
+    },
+    "FOOTER":{
+        "SHORT_LINK":"اختصارات",
+        "CONTACT_US":"تواصل معنا",
+        "TITLE_1":"الاستجابة الحسيه الكاملة",
+        "TITLE_2":"لتعليم اللغة الانجلزية"
+    }
+ 
+ 
+
+}
